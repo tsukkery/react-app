@@ -1,0 +1,154 @@
+/*.header {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    justify-content: space-between; !* Распределяет элементы по горизонтали *!*/
+/*    align-items: center; !* Центрирует элементы по вертикали *!*/
+/*    padding: 20px;*/
+/*    background-color: #282c34; !* Цвет фона заголовка *!*/
+/*    color: white; !* Цвет текста *!*/
+/*}*/
+
+/*.nav-list {*/
+/*    list-style-type: none; !* Убирает маркеры у списка *!*/
+/*    display: flex; !* Делает список горизонтальным *!*/
+/*    margin: 0; !* Убирает отступы *!*/
+/*    padding: 0; !* Убирает внутренние отступы *!*/
+/*}*/
+
+/*.nav-list li {*/
+/*    margin-left: 20px; !* Отступ между элементами списка *!*/
+/*}*/
+
+/*.nav-list a {*/
+/*    color: white; !* Цвет ссылок *!*/
+/*    text-decoration: none; !* Убирает подчеркивание *!*/
+/*}*/
+
+/*.nav-list a:hover {*/
+/*    text-decoration: underline; !* Подчеркивание при наведении *!*/
+/*}*/
+
+
+
+
+
+/*#header {*/
+/*    display: inline-flex;*/
+/*    width: 100%;*/
+/*    !*justify-content: space-between; !* Распределяем пространство между элементами *!*!*/
+/*    !*align-items: center; !* Выравниваем элементы по центру по вертикали *!*!*/
+/*    !*padding: 10px 20px; !* Внутренние отступы *!*!*/
+/*    !*background-color: #333; !* Цвет фона заголовка *!*!*/
+/*    !*color: white; !* Цвет текста *!*!*/
+/*    !*max-height: 100px;*!*/
+/*}*/
+
+/*.logo {*/
+/*    font-size: 24px; !* Размер шрифта для логотипа *!*/
+/*    font-weight: bold; !* Жирный шрифт для логотипа *!*/
+/*}*/
+
+/*.nav ul {*/
+/*    list-style: none; !* Убираем маркеры списка *!*/
+/*    display: flex; !* Горизонтальное расположение элементов списка *!*/
+/*    margin: 0; !* Убираем внешние отступы *!*/
+/*    padding: 0; !* Убираем внутренние отступы *!*/
+/*}*/
+
+/*.nav li {*/
+/*    margin: 0 15px; !* Отступы между элементами навигации *!*/
+/*}*/
+
+/*.nav a {*/
+/*    color: white; !* Цвет ссылок *!*/
+/*    text-decoration: none; !* Убираем подчеркивание *!*/
+/*}*/
+
+/*.nav a:hover {*/
+/*    text-decoration: underline; !* Подчеркивание при наведении *!*/
+/*}*/
+
+/*.header-button {*/
+/*    background-color: #007bff; !* Цвет кнопки *!*/
+/*    color: white; !* Цвет текста кнопки *!*/
+/*    border: none; !* Убираем рамку *!*/
+/*    padding: 10px 15px; !* Внутренние отступы кнопки *!*/
+/*    cursor: pointer; !* Указатель при наведении *!*/
+/*    border-radius: 5px; !* Закругленные углы кнопки *!*/
+/*}*/
+
+/*.header-button:hover {*/
+/*    background-color: #0056b3; !* Цвет кнопки при наведении *!*/
+/*}*/
+
+
+
+
+
+
+
+#header {
+    background-color: #ffed8b;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    top: 0;
+    display: inline-flex;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    height: 50px;
+    margin: 10px;
+}
+
+.nav {
+    margin: 20px 0;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px; /* Промежуток между пунктами меню */
+}
+
+.nav a {
+    text-decoration: none;
+    color: #007bff; /* Цвет ссылок */
+    font-weight: bold;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    background: #0069ed;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out,
+    transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+    background: #0053ba;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
