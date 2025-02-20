@@ -1,7 +1,28 @@
-import './styles/app.css';
-import React, {Component} from 'react';
-import Header from "./Header/Header";
-import './index.css';
+// src/App.js
+import React from 'react';
+import Header from './Header/Header';
+import './Styles/App.css';
+import Info1 from "./Info1";
+import Info2 from "./Info2";
+import Info3 from "./Info3";
+import Table from "./Table";
+import Info5 from "./Info5";
+
+
+const App = () => {
+    return (
+        <div className="app">
+            <Header />
+            <Info1 />
+            <Info2 />
+            <Info3 />
+            <Table />
+            <Info5 />
+        </div>
+    );
+};
+
+export default App;
 
 // function App() {
 //   return (
@@ -9,17 +30,17 @@ import './index.css';
 //   );
 // }
 
-const App = () => {
-    return (
-        <div>
-            <Header /> {/* Используем компонент Header */}
-            {/*<h1>Наши Велосипеды</h1>*/}
-            {/* Остальной контент вашего приложения */}
-        </div>
-    );
-};
-
-export default App;
+// const App = () => {
+//     return (
+//         <div>
+//             <Header /> {/* Используем компонент Header */}
+//             {/*<h1>Наши Велосипеды</h1>*/}
+//             {/* Остальной контент вашего приложения */}
+//         </div>
+//     );
+// };
+//
+// export default App;
 
 
 // class App extends Component {

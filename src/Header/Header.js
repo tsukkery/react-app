@@ -1,6 +1,26 @@
-import React from 'react';
-import './Header.module.css'; // Импортируем стили
 
+// src/Header.js
+import React from 'react';
+import './Header.css';
+import logo from './logo.png';
+
+const Header = () => {
+    return (
+        <header className="header">
+            <div className="logo">
+                <img src={logo} alt="Логотип" className="logo-image" />
+            </div>
+            <nav className="nav">
+                <a href="#about" className="nav-link">О нас</a>
+                <a href="#services" className="nav-link">Услуги</a>
+                <a href="#rent" className="nav-link">Аренда</a>
+            </nav>
+            <button className="contact-button" onClick={() => alert("С нами пока нельзя связаться")}>Связаться</button>
+        </header>
+    );
+};
+
+export default Header;
 
 // function Header() {
 //     return (
@@ -41,23 +61,23 @@ import './Header.module.css'; // Импортируем стили
 
 
 
-const Header = () => {
-    return (
-        <header id="header">
-            <div className="logo">
-                <a><img src="/logo.png" alt="" /></a>
-            </div>
-                <ul>
-                    <li><a href="#about">О нас</a></li>
-                    <li><a href="#service">Услуги</a></li>
-                    <li><a href="#rent">Аренда</a></li>
-                </ul>
-            <div className="button">
-                <button>Связаться</button>
-            </div>
-        </header>
-    );
-};
-
-export default Header;
+// const Header = () => {
+//     return (
+//         <header id="header">
+//             <div className="logo">
+//                 <a><img src="/logo.png" alt="" /></a>
+//             </div>
+//                 <ul>
+//                     <li><a href="#about">О нас</a></li>
+//                     <li><a href="#service">Услуги</a></li>
+//                     <li><a href="#rent">Аренда</a></li>
+//                 </ul>
+//             <div className="button">
+//                 <button>Связаться</button>
+//             </div>
+//         </header>
+//     );
+// };
+//
+// export default Header;
 
